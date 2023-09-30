@@ -25,7 +25,9 @@ const Home = () => {
       </div>
      
     </div>
-    <img className="w-5/6 mx-auto mb-12 -mt-12 lg:-mt-40 rounded-lg shadow-md bg-gray-500" src={heroImg} alt="" />
+    <img className="w-5/6 mx-auto mb-12 -mt-12 lg:-mt-40 rounded-lg shadow-md bg-gray-500"
+     src={heroImg} alt="" />
+     <hr className="mb-5" />
    </section>
   );
 };
