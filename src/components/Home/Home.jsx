@@ -12,7 +12,14 @@ const Home = () => {
         Best E-commerce platform for buying high quality Smart Home <br />{" "}
         Appliances at extremely affordable Price.
       </p>
-     
+      <div className=" text-center flex flex-wrap justify-center gap-5">
+        <Link to="/shop">
+          <button className="shop-btn">Shop Now</button>
+        </Link>
+        <Link to='/about'>
+          <button className="btn-outline">Learn more</button>
+        </Link>
+      </div>
       </div>
     </div>
   );
