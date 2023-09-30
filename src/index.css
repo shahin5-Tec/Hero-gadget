@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.shop-btn{
+    @apply font-medium  transition duration-200  shadow-md   md:mb-0 px-4 py-2 lg:px-8 lg:py-3
+     text-lg rounded-full   text-gray-700 hover:bg-cyan-400 bg-cyan-200
+}
+.btn-outline{
+    @apply font-medium transition duration-200 shadow-md md:mb-0 px-4 py-2 lg:py-3 lg:px-8 text-lg
+    text-gray-700 rounded-full border-2 border-cyan-200 hover:bg-cyan-400 hover:border-transparent
+}

@@ -110,8 +110,8 @@ const Header = () => {
                   {/* Dropdown menu close button */}
                   <div>
                     <button
-                      aria-label="open-menu"
-                      title="open-menu"
+                      aria-label="close-menu"
+                      title="close-menu"
                       onClick={() => setIsMenuOpen(false)}
                     >
                       <FontAwesomeIcon icon={faXmark} />
@@ -153,7 +153,7 @@ const Header = () => {
                       <NavLink
                         to="/about"
                         className={({ isActive }) =>
-                          isActive ? "  text-blue-600" : ""
+                          isActive ? "  text-blue-600" : "" 
                         }
                       >
                         About us
