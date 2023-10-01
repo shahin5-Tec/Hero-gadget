@@ -16,7 +16,7 @@ const Home = () => {
       </p>
       <div className=" text-center py-5 flex flex-wrap justify-center gap-5">
         <Link to="/shop">
-          <button className="shop-btn">Shop Now</button>
+          <button className="btn-primry">Shop Now</button>
         </Link>
         <Link to='/about'>
           <button className="btn-outline">Learn more</button>
